@@ -1,0 +1,263 @@
+[{
+    "data": "Female designers on average make 5000$ less than Male designers annually.",
+    "category": "Demographics",
+    "length": 6,
+    "quotes": [
+      {
+        "quote": "Lack of diversity, including presence of diverse peoples in leadership positions. Inequal pay. Still feels like a boy's club at times. Diverse perspectives are lacking likely due to privileges needed to receive design education.",
+        "summary": "Still feels like a boy's club at times.",
+        "age": 22,
+        "race": "White/Caucasian",
+        "gender": "Female",
+        "role": "Art Director"
+       
+      },
+      {
+        "quote": "Equal pay between genders at the same skill level. The gender make-up of leadership roles in the workplace and the industry. The gender disparity between certain types of roles.",
+        "summary": "The gender disparity between certain types of roles.",
+        "age": 30,
+        "race": "Multiracial",
+        "gender": "Female",
+        "role": "Mid-level Designer"
+      },
+      {
+        "quote": "The tech industry is incredibly misogynistic and doesn't seem to change.  see women being treated constantly like stupid versions of men, being paid less. I've lost most of my respect for this country over the last 6 years, seeing that level of abuse every day. ",
+        "summary": "The tech industry is incredibly misogynistic...",
+        "age":40,
+        "race": "White/Caucasian",
+        "gender": "Male",
+        "role": "Senior Designer"
+      },
+      {
+        "quote": "In my career as a designer I have felt increasingly disposable. I am paid less than a junior designer, despite having 7 years of experience, and no one takes me seriously. It feels like the only way to be respected as a designer is to go into UI/UX or product design, which is annoying and kind of sexist (it's the more technical side of design, and largely male-dominated)",
+        "summary": "I am paid less than a junior designer...",
+        "age": 26,
+        "race": "White/Caucasian",
+        "gender": "Female",
+        "role": "Mid-level Designer"
+      },
+      {
+        "quote": "I rarely see women being paid as fairly as men. I also rarely see women in higher roles (art director/creative director/etc). In my city, there is also an overwhelming amount of white people working in design, particularly at design firms/agencies, and I feel like that makes that career pathway inaccessible to a lot of people. There need to be different voices at the table.",
+        "summary": "I rarely see women being paid as fairly as men.",
+        "age": 26,
+        "race": "White/Caucasian",
+        "gender": "Female",
+        "role": "Mid-level Designer"
+      }
+    ]
+  },
+  {
+    "data": "Non-Binary designers make less than 25k a year, two times lower than the industry standard. ",
+    "category": "Demographics",
+    "length": 6,
+    "quotes": [
+      {
+        "quote": "Its relevance in social justice impact as compared to other fields. Its complacency to the market. Its exclusion of people with non dominant identities due to lack of valuing equity and also the amount of money and time it takes to get a design degree which has low economic turnover",
+        "summary": "Exclusion of people with non dominant identities...",
+        "age": 28,
+        "race": "Other",
+        "gender": "Gender questioning",
+        "role": "Mid-level designer"
+       
+      },
+      {
+        "quote": "The role of designers in consumerism, in supporting an economy and culture that perpetuates classism, racism, and gender inequality.",
+        "summary": "classism, racism, and gender inequality.",
+        "age": 35,
+        "race": "White / Caucasian",
+        "gender": "Gender nonconforming",
+        "role": "Senior designer"
+      },
+      {
+        "quote": "Ensuring that Design is capital 'R' responsible. Design should serve to facilitate understanding, and not create or cement bias, prejudice, and inequality in the pursuit of profit.",
+        "summary": "Ensuring that Design is capital 'R' responsible.",
+        "age":25,
+        "race": "White/Caucasian",
+        "gender": "Non-binary",
+        "role": "Junior designer"
+      },
+      {
+        "quote": "In my career as a designer I have felt increasingly disposable. I've been laid off twice within 2 years and my current role (which I am leaving) I am paid less than a junior designer, despite having 7 years of experience, and no one takes me seriously. It feels like the only way to be respected as a designer is to go into UI/UX or product design, which is annoying and kind of sexist (it's the more technical side of design, and largely male-dominated)",
+        "summary": "I am paid less than a junior designer...",
+        "age": 26,
+        "race": "White/Caucasian",
+        "gender": "Female",
+        "role": "Mid-level Designer"
+      },
+      {
+        "quote": "I rarely see women being paid as fairly as men. I also rarely see women in higher roles (art director/creative director/etc). In my city, there is also an overwhelming amount of white people working in design, particularly at design firms/agencies, and I feel like that makes that career pathway inaccessible to a lot of people. There need to be different voices at the table.",
+        "summary": "I rarely see women being paid as fairly as men.",
+        "age": 26,
+        "race": "White/Caucasian",
+        "gender": "Female",
+        "role": "Mid-level Designer"
+      }
+    ]},
+  
+ {
+    "data": "Out of the 456 designers working in creative director roles, 360 were white. (Over 75%)",
+    "category": "Demographics",
+    "length": 6,
+    "quotes": [
+      {
+        "quote": "[A critical issue in design is the] Lack of diversity - I was a Creative Director in San Francisco for over 10 years. I did not interview a single African-American candidate for any graphic design, web design, or copy writing position.",
+        "summary": "I did not interview a single African-American candidate",
+        "Age": 51,
+        "race": "Black / African American",
+        "gender": "Male",
+        "role": "Creative director"
+       
+      },
+      {
+        "quote": "Design is an evolving field. We now work more and get paid less for the work. I find it difficult to stay current with everything changing so rapidly.",
+        "summary": "We now work more and get paid less…",
+        "age": 54,
+        "race": "Black / African American",
+        "gender": "Male",
+        "role": "Creative director"
+      },
+      {
+        "quote": "The most critical issues facing the design industry are twofold. First the disproportionate compensation for work compensation and the under appreciation for the use and application for design and cultivating designers in America resulting in reliance on creative talent from other countries.",
+        "summary": "Disproportionate compensation and under appreciation",
+        "age":57,
+        "race": "Black / African American",
+        "gender": "Female",
+        "role": "Creative director"
+      },
+      {
+        "quote": "Diversity in the upper echelons of the industry is one of the greatest challenges. Design is still a white, male, euro-centric profession.",
+        "summary": "Design is still a white, male, euro-centric profession.",
+        "age": 40,
+        "race": "Latinx / Hispanic",
+        "gender": "Male",
+        "role": "Art director"
+      },
+ {
+        "quote": "Diversity is not only an important issue in our field but also in our schools/design programs. We need diverse faculty and courses/projects that address issues around gender equity, inclusivity, accessibility, and the decolonization of the design canon.",
+        "summary": "Diversity is an important issue in our schools/design programs.",
+        "age":34,
+        "race": "Latinx / Hispanic",
+        "gender": "Male",
+        "role": "Professor"
+      },
+      {
+        "quote": "As a Black woman, I feel the voices in Black Creative/Art Directors are limited/non existent. Unless we are talking about social issues, we're not invited to the conversation. While I care about social issues, I don't want to talk about that topic to be the only reason I talk design. I don't need to have, 'Black Lives Matter,' attached to my topic just to be heard. ",
+        "summary": "As a Black woman, I feel the voices in Black Creative/Art Directors are limited/non existent.",
+        "age": 32,
+        "race": "Black / African American",
+        "gender": "Female",
+        "role": "Art director"
+      }
+    ]},
+ {
+    "data": "Over 70% of Designers that are educators are caucasian.",
+    "category": "Demographics",
+    "length": 7,
+    "quotes": [
+      {
+        "quote": "Design education could be pushing against design as a tool for capitalism but instead either feeds capitalism or sits in its own bubble acting like it has nothing to do with capitalism. Students aren't taught how to deal with the realities of the industries they are going into and instead are given a strange idealistic self involved view of design that is just a recipe for failure.",
+        "summary": "Students aren't taught how to deal with the realities of the industries…",
+        "age": 28,
+        "race": "Asian",
+        "gender": "Male",
+        "role": "Mid-level designer"
+      },
+      {
+        "quote": "There’s a critical issue in the accessibility of design education/careers/mentors to youth in underprivileged communities.",
+        "summary": "Accessibility of design education…",
+        "age": 30,
+        "race": "Multi-racial",
+        "gender": "Female",
+        "role": "Senior designer"
+      },
+      {
+        "quote": "Support guidance and resources for continued design education as the field evolves with the culturescape. Designers are facing an identity crisis along the way and we just try to figure it out but less specialization and more design strategy and thinking to solve problems sees the trend. However, specialization seems important in the area of consumerism.",
+        "summary": "Designers are facing an identity crisis along the way…",
+        "age": 36,
+        "race": "Black / African American",
+        "gender": "Female",
+        "role": "Senior designer"
+      },
+      {
+        "quote": "Access to quality, affordable education-which would produce a spectrum of design voices, telling a spectrum of stories, which more accurately represents the spectrum of human beings that exist on this planet.",
+        "summary": "Access to quality, affordable education…",
+        "age": 39,
+        "race": "Multi-racial",
+        "gender": "Female",
+        "role": "Professor"
+      },
+      {
+        "quote": "In my position (as a full-time faculty member teaching in a Design program), I think the major issue is getting more state/government funding for US universities. There has been a systematic decline in funding for higher education for more than two decades.",
+        "summary": "Systematic decline in funding for higher education…",
+        "age": 49,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Professor"
+      },
+      {
+        "quote": "The lack of visibility of representation in art and design education in combination with the expensive costs of more or less outdated education.",
+        "summary": "Lack of visibility of representation in art and design…",
+        "age": 22,
+        "race": "Black / African American",
+        "gender": "Female",
+        "role": "Intern"
+      },
+      {
+        "quote": "Design education is not teaching the skills needed of future designers. Creative problem solving, systems thinking and design research methods are not well integrated into design education in many institutions.",
+        "summary": "Design education is not teaching the skills needed…",
+        "age": 47,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Design lead"
+      }
+    ]},
+  
+ {
+    "data": "63% of designers that feel like they 'don’t have autonomy of freedom to make decisions in the industry' are women.",
+    "category": "Demographics",
+    "length": 5,
+    "quotes": [
+      {
+        "quote": "[One of the most critical issues in design is that] men are the leaders, even though it feels female dominant.  Women are not getting promoted and are often not seen as experienced as men who are often not as competent but in charge.",
+        "summary": "Power does not come in numbers",
+        "Age": 30,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Senior designer"
+       
+      },
+      {
+        "quote": "[A critical issue in design is the] lack of mentorship opportunities/imbalance of mentorship for women in design vs men, and the corresponding lack of advancement and growth opportunities for women. It's harder for women to advance to director-level positions because the mentorship and help network supports mostly male designers, who get promoted into positions of leadership faster than female designers.",
+        "summary": "Difficulty growing as a female designer...",
+        "age": 37,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Creative Director"
+      },
+      {
+        "quote": "Somewhat touched upon above, but one of the biggest issues I face on a regular basis as an in-house designer is convincing the client (coworkers, managers, executive staff, etc. of my company) that their concepts may not be the best design choices.  Maneuvering around-- or even successfully incorporating--other people's 'personal taste' is a constant time suck and obstacle.",
+        "summary": "Needing to prove oneself as a female designer",
+        "age":48,
+        "race": "Other",
+        "gender": "Female",
+        "role": "Mid-level designer"
+      },
+      {
+        "quote": "A critical issue in design is young females learning how to speak up and actually recognize bias. (when to know if im overthinking or there is a bias against me)",
+        "summary": "Speaking up against bias",
+        "age": 24,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Mid-level designer"
+      },
+      {
+        "quote": "Historically designers seemingly designed without mind to usability by different sexes and people with different abilities... In terms of representation, in design school I was rarely informed on women in design, people of color in design, women of color in design, and Latino women in design. A large portion of this has to do with discrepancies in design education, but it is also lack of inclusion of designers of color and female designers. ",
+        "summary": "Historical gender discrimination in the industry",
+        "age": 20,
+        "race": "Latinx / Hispanic",
+        "gender": "Female",
+        "role": "Junior designer"
+      }
+    ]}
+ ]
+ 
