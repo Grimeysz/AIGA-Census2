@@ -15,7 +15,7 @@ $(document).ready(function () {
     
 // var ls = "local storage set";
 // localStorage.setItem("keyname", ls);
-if(window.location.pathname == '/Users/Proud/AIGA-Census2/quotes.html') {
+if(window.location.pathname == 'quotes.html') {
     console.log('hello world');
   
   //fetch json data 
