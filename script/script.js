@@ -86,6 +86,7 @@ $(function() {
 $( "#draggable2" ).draggable();  
 $( "#draggable3" ).draggable();  
 $( "#draggable4" ).draggable();  
+$( "#draggable5" ).draggable();  
 $("draggable").css("background-color", "white");
 });  
 
@@ -153,7 +154,7 @@ function transformNav(i){
 $("#draggable2").eq(0).html("<p>"+jsonData[0].quotes[i].gender+ "</p>");
 $("#draggable3").eq(0).html("<p>"+jsonData[0].quotes[i].race+ "</p>");
 $("#draggable4").eq(0).html("<p>"+jsonData[0].quotes[i].role+ "</p>");
-  
+
 }
 
 function nextClicked(i){
