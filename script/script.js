@@ -15,7 +15,7 @@ $(document).ready(function () {
     
 // var ls = "local storage set";
 // localStorage.setItem("keyname", ls);
-if(window.location.pathname == 'quotes.html') {
+//if(window.location.pathname == '/Users/Proud/AIGA-Census2/quotes.html') {
     console.log('hello world');
   
   //fetch json data 
@@ -52,7 +52,7 @@ if(window.location.pathname == 'quotes.html') {
   .catch(function (err) {
       console.log('error: ' + err);
   });
-}
+
 //highlight links when on relevant quote
 $('button.next').click(function(){
   if(quoteProgression == jsonData.length-1){
