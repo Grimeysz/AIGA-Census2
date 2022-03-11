@@ -1,6 +1,7 @@
 const hero = document.querySelector("[data-hero]");
 var quoteProgression = 0;
 var jsonData;
+var slider;
 
 $(document).ready(function () {
     
@@ -37,6 +38,7 @@ $(document).ready(function () {
     autoplayText: ["Start", "Stop"],
     controlsContainer: "#controls",
     prevButton: ".previous",
+
     nextButton: ".next",
     responsive: {
       640: {
@@ -66,7 +68,6 @@ $('button.next').click(function(){
   });
 
   $('button.previous').click(function(){
-    console.log("clicked")
     if(quoteProgression == 0){
       quoteProgression = jsonData.length-1;
     }
@@ -74,15 +75,10 @@ $('button.next').click(function(){
       quoteProgression -= 1;
     }
     transformNav(quoteProgression)
+ 
   
     });
 
-
-
-  $(".quotes-navigation").on("click", 'div.quote-link', function() {
-    console.log("clicked");
-    //navigate to quote when linked is clicked
-});    
 
 //dragagble divs
 $(function() {  
@@ -93,10 +89,17 @@ $( "#draggable4" ).draggable();
 $("draggable").css("background-color", "white");
 });  
 
+
+   
+$("#loading").css("display", "none")
+
+
 });
+   
+
 //end of onload
 
- 
+
 
 function appendData(data) {
 console.log('appending data');
@@ -104,6 +107,9 @@ jsonData = data;
 
 var mainContainer = document.getElementsByClassName("my-slider")[0];
 var navContainer = document.getElementsByClassName('quote-link');
+
+
+
 
 for (var i = 0; i < data[0].quotes.length; i++) {
     var slider = document.createElement("div");
@@ -115,6 +121,7 @@ for (var i = 0; i < data[0].quotes.length; i++) {
     quotenav.innerHTML = link;
     mainContainer.appendChild(slider);
     navContainer[i].appendChild(quotenav);
+    
  
 }
 //style current displayed
@@ -124,6 +131,16 @@ quoteProgression = 1;
 transformNav(quoteProgression, data)
 
 }
+
+for (var i = 0; i < 5; i++){
+    $("div.quote-link").eq(i).click(function(){
+        console.log($(this).index()-2);
+        
+        quoteProgression = $(this).index()-2;
+        transformNav(quoteProgression, jsonData)
+        slider.destroy();
+    });
+    }; 
 
 function transformNav(i){
   $("div.quote-link").css({"background-color": "#191919","transform": "rotate(0deg)"});
