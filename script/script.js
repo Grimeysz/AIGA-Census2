@@ -97,6 +97,10 @@ $("#loading").css("display", "none")
 
 });
    
+// $("#about-link").click(function(){
+//   openAbout();
+// })
+
 
 //end of onload
 
@@ -167,3 +171,12 @@ function nextClicked(i){
   console.log(i);
   transformNav(i)
 }
+
+function openAbout() {
+  
+  var aboutPage = "<div class='about-page'><div class='col-3'><h1>ABOUT</h1></div><div class='col-5'><h5><span class='yellow'>UNCOVER AIGA</span> is an interactive data exploration of the AIGA Design Census, a yearly survey of professionals working in the design industry. After analyzing over 9000 responses that looked at a range of factors, from a designer’s salary, educational background to their side-hustles, we found what we believe to be the true value of the census: The long-form responses, which allowed designers to comment on what they felt were the critical issues facing design.<br> </h5><h5>It immediately became clear to us that It wasn’t enough for users to know that only 25% of design leadership consists of people of color. What do these designers have to say about the state of the design industry? What are the stories they have to tell? <br></h5> <h5> Our project facilitates a data exploration in which the user filters between categories, gains insight through ‘surface’ data points, and uncover its deeper meaning by reading quotes of the designers that the data points truly speak to. Only when we dig beneath the surface of the numbers can we understand the depth and value of the Census.<br> </h5></div><div id='draggable1' class='draggable' style='top: 70vh; left:10vw;'><p>Proud Taranat</p></div><div id='draggable2' class='draggable' style='top: 55vh; left:30vw;'><p>Francis Park</p></div><div id='draggable3' class='draggable' style='top: 60vh; left:80vw;'><p>Hayoon Choi</p></div><div id='draggable4' class='draggable' style='top: 70vh; left:60vw;'><p>Sarah Xi</p></div></div>";
+  $("body").append(aboutPage);
+  $("aboutPage").css("left","5vw");
+}
+
+
