@@ -160,7 +160,7 @@ table {
 }
 /* start of custom css */
 body {
-  background-color: #e5e5e5;
+  background-color: #F5F5F5;
   padding-left: 5vw;
   padding-right: 5vw;
   max-width: 100vw;
@@ -257,7 +257,7 @@ section {
 }
 .hero--secondary {
   --mask: radial-gradient(
-    circle 700px at var(--x, 100%) var(--y, 100%),
+    circle 500px at var(--x, 100%) var(--y, 100%),
     black 25%,
     transparent 0
   );
@@ -320,6 +320,8 @@ hr {
   position: sticky;
   top: 0;
   align-self: flex-start;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 /* Style the links inside the navigation bar */
