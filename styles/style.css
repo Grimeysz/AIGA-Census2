@@ -655,13 +655,20 @@ width: 50vw;
   z-index: 10;
   text-align: center;
 
+
 }
-#draggable5 {
-    border: 1.5px solid blue;
-  
+#draggable5 { /*resources draggable*/
+    background-image: url('/imgs/BIGARROW_white.svg');
+    background-size: contain; 
+    transition: all 0.5s ease;
+}
+#draggable5:hover { /*resources draggable*/
+  background-image: url('/imgs/BIGARROW_blue.svg');
+  background-size: contain; 
 }
 .draggable:hover {
     background-color: #F4F82E;
+    transform: rotate(-10deg);
 }
 .draggable p {
   line-height: 10rem;
@@ -796,14 +803,14 @@ button, input[type="submit"], input[type="reset"] {
   position: absolute; 
   width: 2.5rem;
   height: 2.5rem;
-  top: 8vh;
+  top: 5vh;
   left: 62.5vw;
   z-index: 11;
 }
 .next {
    background: url('/imgs/DOWN_base.svg');
    position: absolute; 
-  top: 92vh;
+  top: 90vh;
   left: 62.5vw;
   z-index: 11;
   width: 2.5rem;
