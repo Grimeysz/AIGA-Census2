@@ -665,10 +665,13 @@ width: 50vw;
 #draggable5:hover { /*resources draggable*/
   background-image: url('/imgs/BIGARROW_blue.svg');
   background-size: contain; 
+  height: 15rem;
+    width: 15rem;
 }
 .draggable:hover {
     background-color: #F4F82E;
     transform: rotate(-10deg);
+    
 }
 .draggable p {
   line-height: 10rem;
