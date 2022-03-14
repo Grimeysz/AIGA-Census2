@@ -2,6 +2,7 @@ const hero = document.querySelector("[data-hero]");
 var quoteProgression = 0;
 var jsonData;
 var slider;
+
 const categorySummary = [{
   "category": "DEMOGRAPHIC",
   "description": "As designers, we are constantly pushed to be inclusive in our practice and to be conscious of cultural, generational, and other identity-based factors – we love to make personas. But take a look at your design studio, workplace, or classroom. Can we confidently say we’re inclusive if our own spaces lack representation?"    
@@ -74,7 +75,6 @@ $("education").click(function(){
     autoplayText: ["Start", "Stop"],
     controlsContainer: "#controls",
     prevButton: ".previous",
-
     nextButton: ".next",
     responsive: {
       640: {
@@ -131,21 +131,24 @@ $("draggable").css("background-color", "white");
 // $("#demographics").click(openCategory("DEMOGRAPHICS"));
 
 
-$("#education").mouseover(function(){
-  console.log("hovering");
-  $("#education").css("font-size", "15rem;");
-});
-
+for (var i = 0; i < 5; i++){
+  $("div.quote-link").eq(i).click(function(){
+      console.log($(this).index()-2);
+      
+      quoteProgression = $(this).index()-2;
+      transformNav(quoteProgression, jsonData)
+     slider.goTo(3);
+  
+  });
+  }; 
 
 $("#loading").hide();
 
-});
+}); //end
    
 // $("#about-link").click(function(){
 //   openAbout();
 // })
-
-
 
 //end of onload
 
@@ -181,13 +184,7 @@ quoteProgression = 1;
 transformNav(quoteProgression, data)
 
 }
-function openCategory(category){
-var categoryDescription = document.getElementById("category-description");
-var temp = categorySummary.find(x => x.category === category);
-description = temp.description;
-categoryDescription.innerText= description;
 
-}
 
 
 for (var i = 0; i < 5; i++){
@@ -196,7 +193,8 @@ for (var i = 0; i < 5; i++){
         
         quoteProgression = $(this).index()-2;
         transformNav(quoteProgression, jsonData)
-        slider.destroy();
+       
+    
     });
     }; 
 
