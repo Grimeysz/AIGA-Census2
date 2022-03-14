@@ -307,7 +307,16 @@ hr {
   border-width: 1px;
 }
 
-#homepage-labels div {
+/* HOMEPAGE */
+.category-wrapper h1:hover{
+  font-size: 10rem;
+  color: blue;
+}
+.category-wrapper h1{
+  transition: all 0.5s ease;
+}
+
+.category-wrapper {
   position: absolute;
   padding-left: 5vw;
   padding-bottom: 5vh;
@@ -403,7 +412,7 @@ hr {
 .secondary h1 {
   color: #F5F5F5;
 }
-.secondary h1:hover {
+.secondary h1 a:hover {
   color: blue;
 }
 
@@ -450,10 +459,23 @@ left: 40%;
   justify-content: center;
 width:14vw;
 height: 11vw;
-
+transition:ease;
   position: absolute;
   text-align: center;
   color: white;
+  
+}
+.data-point:hover {
+  color: yellow;
+  transform: rotate(-5deg);
+}
+.data-point:hover h5 {
+  color: yellow;
+  transform: rotate(-5deg);
+}
+.data-point:hover h3 {
+  color: yellow;
+  transform: rotate(-5deg);
 }
 .data-point h5 {
     color: white;
@@ -757,6 +779,21 @@ z-index: 10;
   color: #F5F5F5;
 
 }
+
+.circle {
+	position: absolute;
+  border: solid 1px #ccc;
+	width: 20vw; 
+	height: 20vw; 
+  border-radius: 50%;  
+  background-color: white;
+  mix-blend-mode: difference;
+  transform: translate(-31%, -31%);
+  pointer-events:none;
+  
+
+}
+
 
 
 

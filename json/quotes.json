@@ -258,6 +258,526 @@
         "gender": "Female",
         "role": "Junior designer"
       }
+    ]},
+    {
+      "data": "49% of Designers' didn't attend college or an accredited program.",
+      "category": "Education",
+      "length": 5,
+      "quotes": [
+        {
+          "quote": "The biggest thing for me is accessibility to design education and diversity. As a Latina, there are very few people in design that have stories like mine, or understand my story.",
+          "summary": "The biggest thing for me is accessibility to design education and diversity.",
+          "age": 25,
+          "race": "Latinx / Hispanic",
+          "gender": "Female",
+          "role": "Junior designer"
+         
+        }, {
+          "quote": "Even with a degree, it feels impossible to obtain employment. I feel like people undervalue the arts and are only willing to give people a chance if they know them or if the artist/designer has somehow been extremely lucky.",
+          "summary": "Even with a degree, it feels impossible to obtain employment.",
+          "age": 29,
+          "race": "Bi- / Multi-racial",
+          "gender": "Female",
+          "role": "Mid-level designer"
+        },{
+       "quote": "Educational barriers to jobs. (requiring advanced degrees that aren't truly needed) and lack of understanding from non-designers on importance and need. It is also not understood that good design takes time, and most non-designers are just as happy with mediocre work as they are with high quality work and it is degrading and infuriating.",
+       "summary": "Educational barriers to jobs.",
+       "age": 24,
+       "race": "White / Caucasian",
+       "gender": "Male",
+       "role": "Junior designer"
+     },{
+      "quote": "There are very few challenges. Students now have access to design education more than ever before. Still I think we can do better with online education to reach areas where they may not have design schools or colleges.",
+      "summary": "We can do better with online education",
+      "age": 50,
+      "race": "White / Caucasian",
+      "gender": "Female",
+      "role": "Professor"
+    },     {
+      "quote": "There are a lot of avenues for design education but many of them are too expensive and inaccessible. Many programs also don't offer adequate job placement services for students who drop thousands of dollars on education just to be left searching for months on end.",
+      "summary": "Design education is too expensive and inaccessible.",
+      "age": 27,
+      "race": "Black / African American",
+      "gender": "Female",
+      "role": "Mid-level designer"
+    }  
+   ]  
+    },
+    {
+      "data": "Designers believe AI / Machine learning will have the biggest impact on design, however, only 2% of designers are currently learning it.",
+      "category": "Education",
+      "length": 5,
+      "quotes": [
+        {
+          "quote": "Speaking as an older and traditionally trained graphic designer - the biggest challenge for me is: the speed at which design is now expected to deliver, the rapidly changing tools of design, and the rapid ‘learning curve’ that accompanies those changes. Design used to be a passionate and thoughtful process for me, but technology has become a barrier to my marketability.",
+          "summary": "Technology has become a barrier to my marketability.",
+          "age": 58,
+          "race": "Native America / First Nations / First People",
+          "gender": "Female",
+          "role": "Owner"
+         
+        },
+        {
+          "quote": "I feel there should be a greater impact on social impact awareness. Packaging design is essentially designing something that goes to a landfill. How can we as designers be more mindful in our waste contributions to society? Are there affordable technologies that we are not educating ourselves about?",
+          "summary": "I feel there should be a greater impact on social impact awareness.",
+          "age": 26,
+          "race": "Female",
+          "gender": "White / Caucasian",
+          "role": "Mid-level designer"
+        },
+        {
+          "quote": "Technology moves too fast-as I get older, I feel that skills / practices I once put time into are no longer relevant. I do not have the technological knowledge that younger colleagues or current students have. I feel old in my industry, and I'm only 29! :(",
+          "summary": "Technology moves too fast",
+          "age": 29,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Senior designer"
+        },
+        {
+          "quote": "Designers have a lot of control over the work we produce (whether we realize it or not). I believe technology is the experiment of our generation and we currently design products and services without much concern for their effect on our users. Being ethical and considerate of your user, and not manipulating them for business purposes, I believe should be discussed more in the Design community.",
+          "summary": "Being ethical and considerate of your user",
+          "age": 30,
+          "race": "Bi- / Multi-racial",
+          "gender": "Female",
+          "role": "Project manager"
+        },
+        {
+          "quote": "The largest challenge is that what is defined as UX/UI today (buttons, pages, interactions, etc) will be transitioning to voice, gesture and AI driven engagement. There will be a new visual - not this device screen placed at a fixed distance from our eye. Exciting times.",
+          "summary": "UX/UI today will be transitioning to voice, gesture and AI driven engagement.",
+          "age": 55,
+          "race": "White / Caucasian",
+          "gender": "Male",
+          "role": "Design lead"
+        }
+      ]},
+    
+   {
+      "data": "Only 19% of designers care about access to education but only 5% of those are making more than $150,000.",
+      "category": "Education",
+      "length": 5,
+      "quotes": [
+        {
+          "quote": "The growing divide between industry and education caused by the neo-liberal economic model. Few students see the value of contributing to a body of knowledge for knowledge's sake and instead view education as a  hurdle in a path to one's career. Design schools and programs need more funding and support from the industry. Schools need to freedom to critique industry and current research methods.",
+          "summary": "The growing divide between industry and education",
+          "age": 38,
+          "race": "White / Caucasian",
+          "gender": "Male",
+          "role": "Professor"
+         
+        },
+        {
+          "quote": "I think there is a generation of talented designers that are unable to do the work that they are fully able to make because of financial issues, including the high cost of higher education. I also believe that because of this, many don't join organizations that could help them, like the AIGA. ",
+          "summary": "There is a generation of talented designers that are unable to do the work",
+          "age": 30,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Owner"
+        },
+        {
+          "quote": "I feel like the improper education about design in academic spaces is a looming issue. There isn't enough access to quality resources for art/design students and we go into life feeling unprepared and uninspired. We need to change the language around teaching design and make it into a helpful, less competitive environment that enhances every students individual creativity.",
+          "summary": "The improper education about design in academic spaces is a looming issue.",
+          "age": 22,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Junior designer"
+        },
+        {
+          "quote": "Upper education programs are lacking in terms of preparing students for the workplace and working with coworkers/clients. Not all students are able to get internships and end up with the short end of the stick upon graduation. Many programs require students to get internships in order to graduate but it doesn't seem to be commonplace.",
+          "summary": "Upper education programs are lacking in terms of preparing students",
+          "age": 23,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Junior designer Intern"
+        },
+   {
+          "quote": "Design educations are way too expensive, creating a gated community of fairly affluent people working (especially in the major markets.)",
+          "summary": "Design educations are way too expensive",
+          "age": 24,
+          "race": "White / Caucasian",
+          "gender": "Male",
+          "role": "Art director"
+      
+    },
+   {
+      "data": "Out of those who didn't earn a degree from college, 40% are under 30 years old.",
+      "category": "Education",
+      "length": 5,
+      "quotes": [
+        {
+          "quote": "Giving opportunities for designers who have less formal education in design and giving opportunities to EVERYONE, no matter their age, the color of their skin or their race or sexual orientation. So many people place importance on the wrong attributes of a person & judge them by their looks or education or gender rather than looking past all of that and seeing the potential.",
+          "summary": "Giving opportunities to EVERYONE",
+          "age": 44,
+          "race": "White / Caucasian",
+          "gender": "Male",
+          "role": "Junior designer"
+        },
+        {
+          "quote": "Exceptionally difficult to find new positions because I wasn't able to attain a degree due to financial standing. Socioeconomic diversity is important.",
+          "summary": "Exceptionally difficult to find new positions",
+          "age": 30,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Mid-level designer"
+        },
+        {
+          "quote": "Bias against designers without a design degree and the constant feeling of imposter syndrome.",
+          "summary": "Bias against designers without a design degree",
+          "age": "NA",
+          "race": "White / Caucasian",
+          "gender": "Male",
+          "role": "Mid-level designer"
+        },
+        {
+          "quote": "I feel like everyone is dumbing down designs and making things too simple. I think too many people are saying they're designers but…all they did was teach themselves how to use Adobe software. It's aggravating that these people have a sense of being elite know-it-alls without…the actual schooling to get the degree I have but yet I can't get paid as much as they do.",
+          "summary": "Everyone is dumbing down designs",
+          "age": 38,
+          "race": "White / Caucasian",
+          "gender": "Female",
+          "role": "Senior designer"
+        },
+        {
+          "quote": "I think ethics, research, and design impact are all interconnected. I feel like there are more and more young designers put in positions…that affect the public on a large scale. They lack experience or proper leadership to understand how their decisions impact the work they do. Providing resources, guidelines, or education…could help develop better critical thinking and communication, for leaders, but also for their team.",
+          "summary": "Ethics, research, and design impact are all interconnected.",
+          "age": 40,
+          "race": "Asian",
+          "gender": "Male",
+          "role": "Design lead"
+        }
+      ]},
+    
+   {
+      "data": "37% of students feel a little concerned about their future",
+      "category": "Education",
+      "length": 5,
+      "quotes": [
+        {
+          "quote": "As an educator, I see challenges with the education of future designers. There are so many programs in the design of various qualities. Institutions … turn out under-prepared students of design (with BFAs). I see this as a real disservice to the field and the students. It might be time for AIGA to take a more active role in reviewing the quality of design education across the country. Not all design education programs are created equal.",
+          "summary": "Not all design education programs are created equal.",
+          "age": 44,
+          "race": "White / Caucasion",
+          "gender": "Female",
+          "role": "Professor"
+         
+        },
+        {
+          "quote": "[I feel the most critical issues facing design are] the expense of attending a good design school and the proliferation of terrible design schools that underserved and under-prepare their students. the proliferation of generic shallow design that lacks original voice or interest (in form, concept and agenda). the fact that anyone can be a designer (great) also means any underskilled idiot can be a designer (not so great).",
+          "summary": "Unequal education programs",
+          "age": 53,
+          "race": "White / Caucasion",
+          "gender": "Male",
+          "role": "Professor"
+        },
+        {
+          "quote": "Lack of new talent: students want to jump on a computer and find quick solutions, are impatient and don't want to take risk. This concerns me looking forward about the future of graphic design",
+          "summary": "Lack of new talent",
+          "age": 49,
+          "race": "White / Caucasion",
+          "gender": "Male",
+          "role": "Instructor"
+        },
+        {
+          "quote": "I believe it is hard to get internships because places expect you to have a bunch of experience. I also have a passion to learn UX/UI and the college I go to does not offer classes to learn.",
+          "summary": "It is hard to get internships",
+          "age": 21,
+          "race": "White / Caucasion",
+          "gender": "Female",
+          "role": "Intern"
+        },
+        {
+          "quote": "I am currently still at my first job that I have had since I graduated college. I do not feel that I am paid what I am worth. It was incredibly difficult to find a graphic design internship while I was still in school that paid a livable wage. It is important to pay young designers a salary they can live off of because worrying about money saps creativity. Unpaid internships should not exist.",
+          "summary": "I do not feel that I am paid what I am worth.",
+          "age": 24,
+          "race": "White / Caucasion",
+          "gender": "Female",
+          "role": "Junior designer"
+        }
+      ]}
+   ]
+   },
+   {
+    "data": "Only 4% of Designers feel 'Rock Solid' in their current position",
+    "category": "Compensation",
+    "length": 7,
+    "quotes": [
+      {
+        "quote": "With the prevalence of social media as the main consuming access point for design, there has been a kind of regression to the mean of creativity — there are fewer and fewer weird/new/groundbreaking design solutions and more and more imitations/trends.",
+        "summary": "There has been a kind of regression to the mean of creativity…",
+        "age": 34,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Senior designer"
+       
+      },
+      {
+        "quote": "1. Outsourcing. I outsource 75% of our design volume to India, reserving the 25% that is creative for my in-house team. It has replaced 6 full-time production design jobs. And the quality is so poor and it is so difficult to actually get the work done there that I'm not sure that it is even economical. I wish there was a tax on outsourced work so that I could get my executive team to bring the jobs back in-house. 2. Consumer-facing applications and template systems. Sites like Canva are replacing the need for layout work. And Snapchat filters can switch faces on people without Photoshop!",
+        "summary": "Outsourcing has replaced many full-time production design jobs…",
+        "age": 37,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Creative director"
+      },
+      {
+        "quote": "Equality and accessibility to good and thoughtful design. Right now the highest echelons of graphic, industrial, interior design reside with the wealthy and there is little distribution of carefully crafted design systems across the socioeconomic spectrum.",
+        "summary": "Equality and accessibility to good and thoughtful design.",
+        "age": 34,
+        "race": "White / Caucasian",
+        "gender": "Male",
+        "role": "Creative director"
+      },
+      {
+        "quote": "People [do not understand] the importance of good design in any industry/capacity or for any purpose - or people [think] they can do what a professional designer can do.",
+        "summary": "People do not understand the importance of good design…",
+        "age": 28,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Creative Director"
+      },
+      {
+        "quote": "Creating a stable, healthy profession (largely financially) from graduation to retirement. Too many 'starving' freelancers for what should be a middle class profession.",
+        "summary": "Creating a stable, healthy profession…",
+        "age": 37,
+        "race": "Latinx / Hispanic",
+        "gender": "Male",
+        "role": "Professor"
+      },
+      {
+        "quote": "There are no junior roles and an abundance of senior or lead designer roles. It seems like everyone is a lead.",
+        "summary": "There is an abundance of senior/lead designer roles…",
+        "age": 27,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Junior designer"
+      },
+      {
+        "quote": "In addition to the above, lack of mentorship for new designers, particularly women and designers of color. Not enough value being placed on entry level work.",
+        "summary": "There isn’t enough value placed on entry level work…",
+        "age": 33,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Design lead"
+      }
+    ]
+  },
+  {
+    "data": "37% of young designers (<30 y/o) are not satisfied with their current role, but only 24% of the industry cares about multi-generational compatibility in the workplace.",
+    "category": "Compensation",
+    "length": 6,
+    "quotes": [
+      {
+        "quote": "Companies are quick to overlook junior designers and are looking to hire more senior designers and this is making it extremely difficult to break into design as a result. Junior designers need to be given a chance to prove themselves.",
+        "summary": "Companies are quick to overlook junior designers…",
+        "age": 23,
+        "race": "Latinx / Hispanic",
+        "gender": "Female",
+        "role": "Junior designer"
+       
+      },
+      {
+        "quote": "I think we as a community need to work on treating younger designers and interns with more kindness and respect. The work that junior designers is valuable.",
+        "summary": "Treating younger designers and interns with more kindness and respect.",
+        "age": 24,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Mid-level designer"
+      },
+      {
+        "quote": "The growing list of ‘skills’ or ‘competencies’ entry / junior level designers are expected to have with only 0-2 years of experience is laughable at the average salary they pay. We signed up to participate in an ever-changing line of work, sure, but most of these ‘skills’ are separate disciplines entirely that require years of work, focus and mentoring in order to become proficient.",
+        "summary": "The growing list of ‘skills’ or ‘competencies’ entry / junior level designers…",
+        "age": 33,
+        "race": "White / Caucasian",
+        "gender": "Male",
+        "role": "Senior designer"
+      },
+      {
+        "quote": "Senior designers exploiting junior designers by paying them nothing and expecting them to work obscenely long hours.",
+        "summary": "Senior designers exploiting junior designers…",
+        "age": 22,
+        "race": "White / Caucasion",
+        "gender": "Male",
+        "role": "Junior designer"
+      },
+ {
+        "quote": "Traditionally people who have the most experience get the senior role and are more likely to be hired. But in design, the most in-the-know and trendy people are the younger generation. However this is a paradox because the younger generation will always be the junior designers and will have trouble advancing in their career purely because of age.",
+        "summary": "Younger designers will have trouble advancing in their career purely because of age.",
+        "age": 25,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Mid-level designer"
+      },
+      {
+        "quote": "I feel that there is an underlying attitude of senior designers…where they think it's okay to be blunt, mean, or downright rude to younger designers in the name of ‘tough love.’ Also, it teaches them that that's a ‘normal’ way of acting in the design industry, and just breeds more designers to be rude and stuck-up in the future. As designers, isn't it our job to be empathetic to others and understand how they might feel?",
+        "summary": "Senior designers are blunt, mean, or downright rude to younger designers",
+        "age": 22,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Junior designer"
+      }
+    ]},
+  
+ {
+    "data": "85% of the industry prioritizes family (7972) but only 38% (3628) receive child or parental related benefits",
+    "category": "Compensation",
+    "length": 5,
+    "quotes": [
+      {
+        "quote": "Crap work/life balance. Everyone is trying to 'hustle' and replying to work emails at midnight as if it's ok. How can you raise a family if you're working 24/7?",
+        "summary": "Everyone’s trying to hustle…",
+        "Age": 34,
+        "race": "White / Causasian",
+        "gender": "Male",
+        "role": "Creative director"
+       
+      },
+      {
+        "quote": "This survey was geared to people that had a very traditional path in the job world which doesn't apply to a lot of people, especially working mothers. I freelance and work part time because I have found a full time job in this industry would be too demanding time wise to be present for my family (sick days, late hours etc). I have also found that, as a freelancer, there is now a lot of business that undermines the value of a professional graphic designer.",
+        "summary": "There is now a lot of business that undermines the value…",
+        "age": 43,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Owner"
+      },
+      {
+        "quote": "Employers are taking advantage of the freelance workforce by not having to provide benefits (healthcare, paid vacation time, retirement accounts, etc.) and, in most instances, requiring one to bring their own laptop and to be onsite full time. This means a freelancer can only work on that employer's projects, which is not always realistic or financially feasible, especially with no benefits. As a freelancer, I need to make sure to have flexibility and numerous clients and projects going at all times to make a decent living.",
+        "summary": "Taking advantage of freelance workforce…",
+        "age": 43,
+        "race": "Asian",
+        "gender": "Female",
+        "role": "Senior designer"
+      },
+      {
+        "quote": "Lots of ageism in the advertising industry. Unexpected late hours and terrible family leave policies make it near impossible to plan a family. No permanent employment opportunity for part time work.",
+        "summary": "Ageism in the advertising industry…",
+        "age": 30,
+        "race": "Prefer not to say",
+        "gender": "Female",
+        "role": "Senior designer"
+      },
+ {
+        "quote": "The concept of aging in the design industry is something I find increasingly difficult. There is an expectation to become a CD or ECD, but at the sacrifice of personal time, and work/life balance. As a woman wanting to have a family, there is a tension in feeling I have to choose between being a strong parent or a strong professional — but in NYC in particular, I know very few (if any) women who manage to have a successful balance between the two. And if I don't want to own or run a studio, what other options are left for my career?",
+        "summary": "The concept of aging in the design is difficult…",
+        "age": 32,
+        "race": "White / Caucasian",
+        "gender": "Female",
+        "role": "Art director"
+      }
+    ]},
+ {
+    "data": "___",
+    "category": "Compensation",
+    "length": 6,
+    "quotes": [
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      }
+    ]},
+  
+ {
+    "data": "___",
+    "category": "Compensation",
+    "length": 5,
+    "quotes": [
+      {
+        "quote": "___",
+        "summary": "___",
+        "Age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+       
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age":0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age":0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age": 0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      },
+      {
+        "quote": "___",
+        "summary": "___",
+        "age":0,
+        "race": "___",
+        "gender": "___",
+        "role": "___"
+      }
     ]}
  ]
+ 
+ 
+  
+   
+   
+    
+    
+ 
  

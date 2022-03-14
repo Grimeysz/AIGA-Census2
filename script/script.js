@@ -2,9 +2,25 @@ const hero = document.querySelector("[data-hero]");
 var quoteProgression = 0;
 var jsonData;
 var slider;
+const categorySummary = [{
+  "category": "DEMOGRAPHIC",
+  "description": "As designers, we are constantly pushed to be inclusive in our practice and to be conscious of cultural, generational, and other identity-based factors – we love to make personas. But take a look at your design studio, workplace, or classroom. Can we confidently say we’re inclusive if our own spaces lack representation?"    
+},
+{
+  "category": "EDUCATION",
+  "description":"this is the description for education"
+},
+{
+  "category": "COMPENSATION",
+  "description": "this is the description for compensation"
+}];
+
+// Give the parameter a variable name
+var dynamicContent = window.location.pathname;
 
 $(document).ready(function () {
-    
+  
+    //css masking
     window.addEventListener("mousemove", (e) => {
       const { clientX, clientY } = e;
       const x = Math.round((clientX / window.innerWidth) * 100);
@@ -13,7 +29,27 @@ $(document).ready(function () {
       hero.style.setProperty("--x", `${x}%`); //follows position of
       hero.style.setProperty("--y", `${y}%`);
     });
+    console.log(dynamicContent);
+
+//circle
+var mouseX = 0, mouseY = 0;
+  var xp = 0, yp = 0;
+   
+  $(document).mousemove(function(e){
+    mouseX = e.pageX - 30;
+    mouseY = e.pageY - 30; 
+  });
     
+  setInterval(function(){
+    xp += ((mouseX - xp)/6);
+    yp += ((mouseY - yp)/6);
+    $("#circle").css({left: xp +'px', top: yp +'px'});
+  }, 20);
+
+$("education").click(function(){
+  $("education").css("background-color", "red");
+  console.log("hovering")
+})
 // var ls = "local storage set";
 // localStorage.setItem("keyname", ls);
 //if(window.location.pathname == '/Users/Proud/AIGA-Census2/quotes.html') {
@@ -57,7 +93,7 @@ $(document).ready(function () {
 
 //highlight links when on relevant quote
 $('button.next').click(function(){
-  if(quoteProgression == jsonData.length-1){
+  if(quoteProgression == jsonData[0].quotes.length-1){
     quoteProgression = 0;
   }
   else{
@@ -69,7 +105,7 @@ $('button.next').click(function(){
 
   $('button.previous').click(function(){
     if(quoteProgression == 0){
-      quoteProgression = jsonData.length-1;
+      quoteProgression = jsonData[0].quotes.length-1;
     }
     else{
       quoteProgression -= 1;
@@ -90,16 +126,25 @@ $( "#draggable5" ).draggable();
 $("draggable").css("background-color", "white");
 });  
 
+// $("#compensation").click(openCategory("COMPENSATION"));
+// $("#education").click(openCategory"'EDUCATION"));
+// $("#demographics").click(openCategory("DEMOGRAPHICS"));
 
-   
-$("#loading").css("display", "none")
 
+$("#education").mouseover(function(){
+  console.log("hovering");
+  $("#education").css("font-size", "15rem;");
+});
+
+
+$("#loading").hide();
 
 });
    
 // $("#about-link").click(function(){
 //   openAbout();
 // })
+
 
 
 //end of onload
@@ -136,6 +181,14 @@ quoteProgression = 1;
 transformNav(quoteProgression, data)
 
 }
+function openCategory(category){
+var categoryDescription = document.getElementById("category-description");
+var temp = categorySummary.find(x => x.category === category);
+description = temp.description;
+categoryDescription.innerText= description;
+
+}
+
 
 for (var i = 0; i < 5; i++){
     $("div.quote-link").eq(i).click(function(){
@@ -161,16 +214,7 @@ $("#draggable4").eq(0).html("<p>"+jsonData[0].quotes[i].role+ "</p>");
 
 }
 
-function nextClicked(i){
-  if(i == 4){
-    i = 0;
-  }
-  else{
-    i += 1;
-  }
-  console.log(i);
-  transformNav(i)
-}
+
 
 function openAbout() {
   
