@@ -7,52 +7,31 @@
     <link href="styles/style.css" rel="stylesheet" />
     <script async
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-  
   ></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js" async></script>  
+  <script async src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" ></script>  
   <script async src="script/script.js" ></script>
 
     <title>P5.js Sketch</title>
   </head> 
-  <body class="home-page">
-      <div class="hero">
-        <div class="marquee" style="right:0; top: 0; transform:rotate(45deg); position: absolute;">
-            <div class="track">
-              <div class="content"><h5>WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN?</h5></div>
-            </div>
-          </div>
-          <div class="marquee" style="right:-5vw; top: 0; transform:rotate(45deg); position: absolute;">
-            <div class="track">
-              <div class="content"><h5>WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN? WHAT ARE THE CRITICAL ISSUES FACING DESIGN?</h5></div>
-            </div>
-          </div>
-          <div class="topnav" style="border-color: white;">
-            <div id="navbarback" style="background-color: black; ">
-              <a class="active" href="#home" style="color: black;"><h6 style="color: white;">BACK</h6></a>
-            </div>
-            <div id="navbar" style="border-color: black;">
-              <a href="index.html"><h6 >UNCOVER</h6></a>
-              <a href="category1.html"><h6 >CATEGORY</h6></a>
-              <a href="data-point.html"><h6 >DATA</h6></a>
-              <a href="quotes.html"><h6 >QUOTES</h6></a>
-            </div>
-          </div>
-        <div class="col-6">
-
-          <div class="category-wrapper"> 
-           <h1 id="compensation"><a href="compensation.html" >COMPENSATION</a></h1>
-           <h1 id="education"><a href="education.html" >EDUCATION</a></h1>
-            <h1 id="demographics"><a href="demographics.html">DEMOGRAPHICS</a></h1>
-            <hr></hr>
-          </div>
-     
-
+  <body class="landing" style="background-color: #0A0A0A">
+      <div class="hero" style="background-color: #0A0A0A">
+        <div id="landing-button"></div>
+   <img class="landing" src="landing-no-arrow.gif">
+  
+              
 
     </div>
  
 
+      <div class="hero hero--secondary" aria-hidden="true" style="background-color: blue;"data-hero>
+        <div class="secondary-wrapper" >
+            <img class="landing" src="landing-secondary.png">
+            <a href="home.html"><div id="landing-button"></div></a>
 
+        </div>
+      </div>
    <div id="loading"></div>
-   <span id="circle" class="circle"></span>
   </body>
 
 </html>
