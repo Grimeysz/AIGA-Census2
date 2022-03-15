@@ -856,7 +856,7 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 .previous {
-   background: url('/imgs/UP_base.svg');
+   background: url('../imgs/UP_base.svg');
   position: absolute; 
   width: 2.5rem;
   height: 2.5rem;
@@ -865,7 +865,7 @@ button, input[type="submit"], input[type="reset"] {
   z-index: 11;
 }
 .next {
-   background: url('/imgs/DOWN_base.svg');
+   background: url('../imgs/DOWN_base.svg');
    position: absolute; 
   top: 90vh;
   left: 62.5vw;
@@ -875,10 +875,10 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .next:hover{
-  background: url('/imgs/DOWN_hover.svg');
+  background: url('../imgs/DOWN_hover.svg');
 }
 .previous:hover{
-  background: url('/imgs/UP_hover.svg');
+  background: url('../imgs/UP_hover.svg');
 }
 /*ABOUT PAGE */
 
