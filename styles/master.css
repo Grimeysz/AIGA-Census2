@@ -441,7 +441,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/imgs/BIGARROW_white.svg');
+  background-image: url('../imgs/BIGARROW_white.svg');
   background-size: contain; 
   transition: all 0.5s ease;
   height: 14rem;
@@ -464,7 +464,7 @@ width: 60%;
 
 
 .draggable6:hover { /*resources draggable*/
-  background-image: url('/imgs/BIGARROW_blue.svg');
+  background-image: url('imgs/BIGARROW_blue.svg');
   background-size: contain; 
   transform: rotate(0deg);
   

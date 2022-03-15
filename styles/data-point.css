@@ -73,7 +73,7 @@ top: 50%;
 }
 
 #draggable5 { /*resources draggable*/
-  background-image: url('/imgs/BIGARROW_blue.svg');
+  background-image: url('../imgs/BIGARROW_blue.svg');
   background-size: cover; 
   transition: all 0.5s ease;
   transform-origin: 10vw center;
@@ -82,7 +82,7 @@ top: 50%;
 }
 #draggable5:hover { /*resources draggable*/
 
-background-image: url('/imgs/resource-images/DesignLeadership.png');
+background-image: url('../imgs/resource-images/DesignLeadership.png');
 background-size: 140% 140%; 
 background-position: center center; 
 width: 20vw;
