@@ -464,7 +464,7 @@ width: 60%;
 
 
 .draggable6:hover { /*resources draggable*/
-  background-image: url('imgs/BIGARROW_blue.svg');
+  background-image: url('../imgs/BIGARROW_blue.svg');
   background-size: contain; 
   transform: rotate(0deg);
   

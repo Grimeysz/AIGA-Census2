@@ -708,21 +708,7 @@ width: 50vw;
   
 }
 
-.draggable6 { /*category draggable*/
-  
-  border-radius: 50%;
-  position: absolute;
-  z-index: 10;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('/imgs/BIGARROW_white.svg');
-  background-size: contain; 
-  transition: all 0.5s ease;
-  height: 14rem;
-  width: 14rem;
-}
+
 
 .draggable6 div {
 width: 60%;
@@ -739,12 +725,7 @@ width: 60%;
   }
 
 
-.draggable6:hover { /*resources draggable*/
-  background-image: url('/imgs/BIGARROW_blue.svg');
-  background-size: contain; 
-  transform: rotate(0deg);
-  
-}
+
 
 .draggable6:hover div{ /*resources draggable*/
 
