@@ -104,3 +104,24 @@ height: 20vw
 .secondary-wrapper .topnav a {
   color: black;
 }
+#draggable6 { /*resources draggable*/
+  background-image: url('../imgs/BIGARROW_blue.svg');
+  background-size: cover; 
+  transition: all 0.5s ease;
+  transform-origin: 10vw center;
+  background-position: center center; 
+  
+}
+#draggable6:hover { /*resources draggable*/
+
+background-image: url('../imgs/resource-images/DesignLeadership.png');
+background-size: 140% 140%; 
+background-position: center center; 
+width: 20vw;
+height: 20vw
+
+}
+
+#draggable6:hover h6 {
+  display: none;
+}

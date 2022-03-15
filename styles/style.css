@@ -958,15 +958,23 @@ z-index: 10;
 }
 
 #landing-button {
-  background-color: #0A0A0A;
+ 
   border: 1px solid white;
   border-radius: 50%;
   width: 8vw;
   height: 8vw;
- 
+ background-image: url("gifs/landing-arrow.gif");
+ background-size: cover;
   position: absolute;
   left: 70vw;
   top: 40vh;
+ 
+}
+
+#landing-button h6 {
+padding-top: 3.5vw;
+padding-left: 30%;
+
 }
 .secondary-wrapper #landing-button{
   background-color: #2E2AEF;
@@ -990,6 +998,7 @@ z-index: 10;
   font-family: 'Sentient-MediumItalic';
   font-size: 1.2rem;
 }
+
 
 
 
