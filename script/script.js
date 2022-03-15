@@ -2,20 +2,6 @@ const hero = document.querySelector("[data-hero]");
 var quoteProgression = 0;
 var jsonData;
 var slider;
-
-const categorySummary = [{
-  "category": "DEMOGRAPHIC",
-  "description": "As designers, we are constantly pushed to be inclusive in our practice and to be conscious of cultural, generational, and other identity-based factors – we love to make personas. But take a look at your design studio, workplace, or classroom. Can we confidently say we’re inclusive if our own spaces lack representation?"    
-},
-{
-  "category": "EDUCATION",
-  "description":"this is the description for education"
-},
-{
-  "category": "COMPENSATION",
-  "description": "this is the description for compensation"
-}];
-
 // Give the parameter a variable name
 var dynamicContent = window.location.pathname;
 
@@ -56,44 +42,11 @@ $("education").click(function(){
 //if(window.location.pathname == '/Users/Proud/AIGA-Census2/quotes.html') {
     console.log('hello world');
   
-  //fetch json data 
-  fetch('json/quotes.json')
-  .then(function (response) {
-
-      return response.json();
-  })
-  .then(function (data) {
-      jsonData = data;
-    appendData(data);
-// tiny slider 
-    let slider = tns({
-    container: ".my-slider",
-    items: 1,
-    axis: "vertical",
-    autoplay: false,
-    autoplayButton: ".auto",
-    autoplayText: ["Start", "Stop"],
-    controlsContainer: "#controls",
-    prevButton: ".previous",
-    nextButton: ".next",
-    responsive: {
-      640: {
-      
-              items: 2
-          },
-          700: {
-              items: 3
-          }
-      }
-  });
-  })
-  .catch(function (err) {
-      console.log('error: ' + err);
-  });
+  
 
 //highlight links when on relevant quote
 $('button.next').click(function(){
-  if(quoteProgression == jsonData[0].quotes.length-1){
+  if(quoteProgression == jsonData.quotes.length-1){
     quoteProgression = 0;
   }
   else{
@@ -105,7 +58,7 @@ $('button.next').click(function(){
 
   $('button.previous').click(function(){
     if(quoteProgression == 0){
-      quoteProgression = jsonData[0].quotes.length-1;
+      quoteProgression = jsonData.quotes.length-1;
     }
     else{
       quoteProgression -= 1;
@@ -163,20 +116,18 @@ $("#loading").hide();
 
 function appendData(data) {
 console.log('appending data');
-jsonData = data;
-
 var mainContainer = document.getElementsByClassName("my-slider")[0];
 var navContainer = document.getElementsByClassName('quote-link');
 
 
 
 
-for (var i = 0; i < data[0].quotes.length; i++) {
+for (var i = 0; i < jsonData.quotes.length; i++) {
     var slider = document.createElement("div");
     var quotenav = document.createElement("p");
    slider.className = "slider";
-    let quote = data[0].quotes[i].quote;
-    let link = data[0].quotes[i].summary;
+    let quote = jsonData.quotes[i].quote;
+    let link = jsonData.quotes[i].summary;
     slider.innerHTML = '<div><h4>'+quote,'</h4></div>';
     quotenav.innerHTML = link;
     mainContainer.appendChild(slider);
@@ -188,7 +139,7 @@ for (var i = 0; i < data[0].quotes.length; i++) {
 $("div.quote-link").eq(1).css({ "border-radius": "50px", "background-color": "white", "transform": "rotate(-3deg)"});
 $("div.quote-link p").eq(1).css("color","#222222");
 quoteProgression = 1;
-transformNav(quoteProgression, data)
+transformNav(quoteProgression, jsonData)
 
 }
 
@@ -212,10 +163,10 @@ function transformNav(i){
   $("div.quote-link").eq(i).css({ "border-radius": "50px", "background-color": "white", "transform": "rotate(-3deg)"});
   $("div.quote-link p").eq(i).css("color","#222222");
   console.log(jsonData)
-  $("#draggable1").eq(0).html("<p>"+jsonData[0].quotes[i].age+ "</p>");
-$("#draggable2").eq(0).html("<p>"+jsonData[0].quotes[i].gender+ "</p>");
-$("#draggable3").eq(0).html("<p>"+jsonData[0].quotes[i].race+ "</p>");
-$("#draggable4").eq(0).html("<p>"+jsonData[0].quotes[i].role+ "</p>");
+  $("#draggable1").eq(0).html("<p>"+jsonData.quotes[i].age+ "</p>");
+$("#draggable2").eq(0).html("<p>"+jsonData.quotes[i].gender+ "</p>");
+$("#draggable3").eq(0).html("<p>"+jsonData.quotes[i].race+ "</p>");
+$("#draggable4").eq(0).html("<p>"+jsonData.quotes[i].role+ "</p>");
 
 }
 

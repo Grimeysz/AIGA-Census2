@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://use.typekit.net/jxd6xzy.css">
     <link href="styles/style.css" rel="stylesheet" />
-    <script
-    async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-  ></script>
-  <script async src="script/script.js"></script>
+    
 
     <title>Education</title>
   </head>
@@ -32,9 +29,10 @@
         <div class="col-3" id="category-description" style="position: absolute; bottom: 10vh; pointer-events: none; ">
          
 
-
-             <p>As designers, we are constantly pushed to be inclusive in our practice and to be conscious of cultural, generational, and other identity-based factors. But take a look at your design studio, workplace, or classroom. </p>
-             <h5>Can we confidently say we’re inclusive if our own spaces lack representation?</h5>
+            
+            <p><span class="description-subheader">What does it mean to become a designer and how does one do it?</span></p>
+             <p>Becoming a professional of any career is a lengthy and difficult process, and for designers, it becomes even more confusing. With increased access to resources for many young designers, this begs the question: What is the right way to become a designer? Does one have to go to school? Are some just born with it? Is education even accesssible for most people?</p>
+ 
              </div>
             
              <div class="data-point-wrapper" style="top: 35%; left: 8%; transform: rotate(8deg);">
@@ -42,8 +40,8 @@
                  <div class="data-point" >
                     <div class="blob"></div>
                     <div class="data-wrapper"> 
-                <h3>30%</h3>
-                <h5 style="color: #222222;"><a href="data-point.html">of practicing design educators are BIPOC.</a></h5>
+                <h3>49%</h3>
+                <h5 style="color: #222222;"><a href="data-point.html">49% of Designers' didn't attend college or a credited program. </a></h5>
                 </div>
             </div>
               </div>
@@ -51,8 +49,8 @@
                 <div class="data-point" >
                     <div class="blob"></div>      
                     <div class="data-wrapper">
-                        <h3>61%</h3>
-                    <h5>of designers identify as women yet, on average, still make $5000 less than their male counterparts.<h5>
+                        <h3>19%</h3>
+                        <h5> of designers care about access to education but only 5% of those are making more than $150,000. <h5>
            
                    </div>
                    </div>
@@ -62,8 +60,9 @@
                     <div class="data-point" >
                         <div class="blob"></div>
                         <div class="data-wrapper">
-                         <h3>63%</h3>
-                        <h5> of designers that feel like they "dont have autonomy of freedom to make decisions in the industry" are women.<h5>
+                        
+                            <h3>64%</h3>
+                            <h5>of designers believe AI / Machine learning will have the biggest impact on design, however, only 2% of designers are currently learning it.<h5>
                         </div>
                         </div>
                 </div>
@@ -71,8 +70,8 @@
                     <div class="data-point" >
                         <div class="blob"></div>
                         <div class="data-wrapper">
-                        <h3>61%</h3>
-                        <h5>of designers identify as women yet, on average, still make $5000 less than their male counterparts.<h5>
+                        <h3>40%</h3>
+                        <h5>Out of those who didn't earn a degree from college, 40% are under 30 years old.<h5>
                         </div>
                         </div>
                 </div>
@@ -80,8 +79,8 @@
                 <div class="data-point" >
                     <div class="blob"></div>
                     <div class="data-wrapper">
-                        <h3>30%</h3>                 
-                        <h5 >of practicing design educators are BIPOC.</h5>
+                        <h3>37%</h3>                 
+                        <h5 >of students feel a little concerned about their future</h5>
                     </div>
                     
                 
@@ -94,5 +93,13 @@
  
     
   </body>
-  
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  ></script>
+  <script src="script/script.js"></script>
+  <script>
+       let e = sessionStorage.getItem('education');
+  e = true;
+  sessionStorage.setItem('education', e);
+  </script>
 </html>

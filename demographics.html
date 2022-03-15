@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://use.typekit.net/jxd6xzy.css">
     <link href="styles/style.css" rel="stylesheet" />
-    <script
-    async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-  ></script>
-  <script async src="script/script.js"></script>
+
 
     <title>Education</title>
   </head>
@@ -20,7 +17,7 @@
           <a class="active" href="javascript:history.back()" style="color: #222222;"><h6 style="color: white;">BACK</h6></a>
         </div>
         <div id="navbar" style="border-color: #222222;">
-          <a href="index.html"><h6 >UNCOVER</h6></a>
+          <a href="home.html"><h6 >UNCOVER</h6></a>
           <a href="compensation.html"><h6 >COMPENSATION</h6></a>
           <a href="education.html"><h6 >EDUCATION</h6></a>
           <a href="demographics.html"><h6 >DEMOGRAPHICS</h6></a>
@@ -44,7 +41,7 @@
                     <div class="data-wrapper"> 
                       <a href="data-point.html"></a>
                 <h3>30%</h3>
-                <h5 style="color: #222222;"><a href="data-point.html">of practicing design educators are BIPOC.</a></h5>
+                <h5 style="color: #222222;"><a href="/D-BIPOCeducators.html">of practicing design educators are BIPOC.</a></h5>
               </a></div>
             </div>
    
@@ -54,7 +51,7 @@
                     <div class="blob"></div>      
                     <div class="data-wrapper">
                         <h3>61%</h3>
-                    <h5>of designers identify as women yet, on average, still make $5000 less than their male counterparts.<h5>
+                    <h5><a href="/D-femaleincome.html">of designers identify as women yet, on average, still make $5000 less than their male counterparts.</a><h5>
            
                    </div>
                    </div>
@@ -65,16 +62,7 @@
                         <div class="blob"></div>
                         <div class="data-wrapper">
                          <h3>63%</h3>
-                        <h5> of designers that feel like they "dont have autonomy of freedom to make decisions in the industry" are women.<h5>
-                        </div>
-                        </div>
-                </div>
-                <div class="data-point-wrapper" style="top: 50%; left: 65%; transform: rotate(-10deg);">
-                    <div class="data-point" >
-                        <div class="blob"></div>
-                        <div class="data-wrapper">
-                        <h3>61%</h3>
-                        <h5>of designers identify as women yet, on average, still make $5000 less than their male counterparts.<h5>
+                        <h5><a href = "/D-femaleautonomy.html">of designers that feel like they "dont have autonomy of freedom to make decisions in the industry" are women.</a><h5>
                         </div>
                         </div>
                 </div>
@@ -82,8 +70,8 @@
                 <div class="data-point" >
                     <div class="blob"></div>
                     <div class="data-wrapper">
-                        <h3>30%</h3>                 
-                        <h5 >of practicing design educators are BIPOC.</h5>
+                        <h3>25%</h3>                 
+                        <h5 ><a href="/D-designleadership.html">of design leadership is BIPOC.</a></h5>
                     </div>
                     
                 
@@ -96,5 +84,13 @@
  
     <img id="homepage-gif" src="gifs/critical-issues.gif" style="bottom: 3vh; left: -5vw;">
   </body>
-  
+  <script
+  async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+></script>
+<script async src="script/script.js"></script>
+<script>
+  let d = sessionStorage.getItem('demographics');
+  d = true;
+  sessionStorage.setItem('demographics', d);
+</script>
 </html>

@@ -40,9 +40,9 @@
 
 
     </div>
- <div id="draggable-education"  class="draggable6" style="top:10vh; left: 70vw; transform: rotate(20deg);">
+ <div id="draggable-education"  class="draggable6" style="top:10vh; left: 70vw;">
   <div><p>Resources on Education</p></div></div>
-  <div id="draggable-compensation" class="draggable6"style="top:30vh; left: 25vw; transform: rotate(20deg)">
+  <div id="draggable-compensation" class="draggable6"style="top:30vh; left: 25vw;">
   <div><p>Resources on Compensation</p></div></div>
         
   <div id="draggable-demographic"  class="draggable6" style="top:55vh; left: 60vw;">
@@ -58,4 +58,19 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>  
 <script  src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" ></script>  
 <script src="script/script.js" ></script>
+<script>
+  let d = sessionStorage.getItem('demographics');
+  let e = sessionStorage.getItem('education');
+  let c = sessionStorage.getItem('compensation');
+
+if(d === 'false'){
+  document.getElementById("draggable-demographic").style.display = 'none';
+}
+if(e === 'false'){
+  document.getElementById("draggable-education").style.display = 'none';
+}
+if(c === 'false'){
+  document.getElementById("draggable-compensation").style.display = 'none';
+}
+</script>
 </html>

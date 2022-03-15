@@ -17,7 +17,7 @@
   <body class="landing" style="background-color: #0A0A0A; padding:0;">
       <div class="hero" style="background-color: #0A0A0A; padding: 0">
         <div id="landing-button"></div>
-   <img class="landing" src="gifs/landing-no-arrow.gif">
+   <img class="landing" src="../gifs/landing-no-arrow.gif">
   
               
 
@@ -33,5 +33,15 @@
       </div>
    <div id="loading"></div>
   </body>
-
+<script>
+    let c = sessionStorage.getItem('compensation');
+  c = false;
+  sessionStorage.setItem('compensation', c);
+  let d = sessionStorage.getItem('demographics');
+  d = false;
+  sessionStorage.setItem('demographics', d);
+  let e = sessionStorage.getItem('education');
+  e = false;
+  sessionStorage.setItem('education', e);
+</script>
 </html>

@@ -163,6 +163,9 @@ url('../fonts/Sentient-MediumItalic.woff') format('woff');
 }
 .yellow{
   color: #F4F82E;
+  font-family: kepler-std-display, serif;
+font-weight: 700;
+font-style: italic;
 }
 
 .blue {
@@ -538,8 +541,8 @@ transition:all 0.5s ease;
 }
 
 .data-point-wrapper:hover .data-point{
-width:14vw;
-height: 14vw;
+width:20vw;
+height: 20vw;
 color: #2E2AEF;
 transform: none;
 }
@@ -581,9 +584,11 @@ transform: none;
   column-gap: 50px;
   min-width: 100vw;
 
+ 
 
 
 }
+
 
 #quotes div {
   padding-top: 50px;
@@ -602,7 +607,9 @@ margin-right: auto;
 }
 .quotes-navigation h2 {
   color: #F5F5F5;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: kepler-std-display, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .quotes-navigation h5 {
     color: #F5F5F5;
@@ -623,7 +630,7 @@ margin-right: auto;
 
 }
 .quote-link {
-  padding: 1rem;
+  padding: 0.8rem;
 margin: 20px;
   transition: all 0.5s ease;
 
@@ -983,6 +990,7 @@ z-index: 10;
   font-family: 'Sentient-MediumItalic';
   font-size: 1.2rem;
 }
+
 
 
 
