@@ -131,16 +131,6 @@ table {
 /* fonts */
 
 @font-face {
-  font-family: 'Sentient-MediumItalic';
-  src: 
-url('../fonts/Sentient-MediumItalic.woff') format('woff');
-       
-       font-weight: 500;
-       font-display: swap;
-       font-style: italic;
-}
-
-@font-face {
   font-family: RadioGrotesk;
   font-weight: normal;
   src: url("fonts/PPRadioGrotesk-Regular.woff2") format("woff2");
@@ -178,7 +168,7 @@ body {
   max-height: 100vh;
 }
 a {
-  color: inherit; /* #2E2AEF colors for links too */
+  color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
 h1 {
@@ -234,7 +224,11 @@ h6 {
 }
 
 a h6:hover {
-  color: #2E2AEF;
+  color: blue;
+}
+svg {
+  opacity: 0;
+  position: absolute;
 }
 
 @property --x {
@@ -319,10 +313,6 @@ hr {
 }
 
 /* HOMEPAGE */
-#homepage-gif{
-  position: absolute;
-}
-
 .home-page{
   overflow-y: hidden;
 }
@@ -330,7 +320,7 @@ hr {
 
 .category-wrapper h1:hover{
   font-size: 8rem;
-  color: #2E2AEF;
+  color: blue;
 }
 .category-wrapper h1{
   transition: all 0.5s ease;
@@ -346,6 +336,7 @@ hr {
 .topnav {
   overflow: hidden;
   display: flex;
+  position: sticky;
   top: 0;
   align-self: flex-start;
   padding-bottom: 1rem;
@@ -367,7 +358,7 @@ hr {
   font-size: 17px;
 }
 .topnav a:hover{
-    color: #2E2AEF;
+    color: blue;
 }
 
 #navbar {
@@ -392,7 +383,7 @@ hr {
   color: #F5F5F5;
 }
 #navbar:hover {
-    width: 40vw;
+    width: 31vw;
   max-width: fit-content;
   transition: all 0.5s ease;
 }
@@ -432,7 +423,7 @@ hr {
   color: #F5F5F5;
 }
 .secondary h1 a:hover {
-  color: #2E2AEF;
+  color: blue;
 }
 
 /* category page */
@@ -441,6 +432,7 @@ hr {
     display: flex;
     height: 90vh;
 }
+/*PULSATING CIRCLE */
 #category-secondary {
  
     transition: all 0.5s ease;
@@ -483,71 +475,45 @@ hr {
 } */
 
 /* DATA POINT */
-
-svg, svg * {
-  pointer-events: none;
-}
-
-svg:hover  {
-  fill: #2E2AEF;
-}
-
-.data-point-wrapper{
-  width: 8vw;
-  height: 8vw;
-  position: absolute;
-  justify-content: center;
-  transform: translate(10%,10%);
-  border-radius: 50%;
-  
-}
-.wrapper-circle{
-  width: 0vw;
-  height: 0vw;
-  background-color: #222222;
-  position: absolute;
-  top: inherit;
-  left: inherit;
-  border-radius: 50%;
-  transform: translate(-3%,-20%);
-  padding: 20px;
-  mix-blend-mode: difference;
-  z-index: 11;
-}
-
 .data-point {
-width:0vw;
-height:0vw;
-transition:all 0.5s ease;
-  
-  text-align: center;
-
-  overflow-x: hidden;
-  overflow-y: hidden;  
-  z-index: 11;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-.data-point .data-wrapper {
-  width: 14vw;
-  height: 14vw;
- display: flex;
- flex-direction:column;
- align-items: center;
-}
-
-.data-point-wrapper:hover .data-point{
+  position: fixed;
+  justify-content: center;
 width:14vw;
-height: 14vw;
-color: #2E2AEF;
-transform: none;
-}
-.data-point-wrapper:hover .blob{
-  display: none;
-  }
+height: 11vw;
+transition:ease;
+  position: absolute;
+  text-align: center;
+  color: white;
+  
 
-    
+}
+#category-secondary:hover{
+  --mask: radial-gradient(
+    circle 500px at var(--x, 100%) var(--y, 100%),
+    #222222 25%,
+    transparent 0
+  );
+} 
+.data-point:hover {
+
+  transform: rotate(-5deg);
+}
+
+.data-point:hover {
+
+  transform: rotate(-5deg);
+}
+.data-point:hover h5 {
+
+  transform: rotate(-5deg);
+}
+.data-point:hover h3 {
+  color: yellow;
+  transform: rotate(-5deg);
+}
+.data-point h5 {
+    color: white;
+}
 
 .blob {
   height: 1rem;
@@ -558,7 +524,7 @@ transform: none;
  top: 50%;
  left: 50%;
   pointer-events: auto;
-
+  transform: translate(-25%,-25%)
 }
 .secondary-wrapper .blob {
   padding: 40px;
@@ -688,69 +654,31 @@ width: 50vw;
   position: absolute;
   z-index: 10;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease;
 
 
 }
-
+#draggable5 { /*resources draggable*/
+    background-image: url('/imgs/BIGARROW_white.svg');
+    background-size: contain; 
+    transition: all 0.5s ease;
+}
+#draggable5:hover { /*resources draggable*/
+  background-image: url('/imgs/BIGARROW_blue.svg');
+  background-size: contain; 
+  height: 15rem;
+    width: 15rem;
+}
 .draggable:hover {
     background-color: #F4F82E;
     transform: rotate(-10deg);
     
 }
 .draggable p {
+  line-height: 10rem;
   font-size: 1rem;
-  font-family: RadioGrotesk;
-  line-height: 100%;
-  
+  font-family: RadioGrotesk
 }
 
-.draggable6 { /*category draggable*/
-  
-  border-radius: 50%;
-  position: absolute;
-  z-index: 10;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('/imgs/BIGARROW_white.svg');
-  background-size: contain; 
-  transition: all 0.5s ease;
-  height: 14rem;
-  width: 14rem;
-}
-
-.draggable6 div {
-width: 60%;
-}
-.draggable6 p {
-  background-color: #f5f5f5;
-  color: #2E2AEF;
-  transition: all 0.56s ease;
-  }
-
-.draggable6:hover p {
-  background-color: #2E2AEF;
-  color: #f5f5f5;
-  }
-
-
-.draggable6:hover { /*resources draggable*/
-  background-image: url('/imgs/BIGARROW_blue.svg');
-  background-size: contain; 
-  transform: rotate(0deg);
-  
-}
-
-.draggable6:hover div{ /*resources draggable*/
-
-  transform: rotate(0deg);
-  
-}
 
 #quotes-page {
   max-height: 100vh;
@@ -835,7 +763,6 @@ section {
 }
 .data-page h2 {
     font-size: 1.4rem;
-    font-family: 'Sentient-MediumItalic';
 }
 .data-page p {
     font-size: 1rem;
@@ -952,7 +879,7 @@ z-index: 10;
   mix-blend-mode: difference;
   transform: translate(-31%, -31%);
   pointer-events:none;
-  z-index: 9;
+  
 
 }
 /*landing page */
@@ -989,21 +916,6 @@ z-index: 10;
   position: absolute;
   z-index: 10;
 }
-
-#about-link {
-  position: absolute;
-  transform: rotate(90deg);
-  right: -3vw;
-  top: 50vh;
-
-}
-
-.description-subheader {
-  font-family: 'Sentient-MediumItalic';
-  font-size: 1.2rem;
-}
-
-
 
 
 

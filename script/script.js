@@ -123,6 +123,9 @@ $( "#draggable2" ).draggable();
 $( "#draggable3" ).draggable();  
 $( "#draggable4" ).draggable();  
 $( "#draggable5" ).draggable();  
+$( "#draggable-demographic" ).draggable(); 
+$( "#draggable-compensation" ).draggable(); 
+$( "#draggable-education" ).draggable(); 
 $("draggable").css("background-color", "white");
 });  
 
@@ -141,6 +144,10 @@ for (var i = 0; i < 5; i++){
   
   });
   }; 
+
+  $("data-point-wrapper").mouseover(function(){
+    console.log("hovered");
+  })
 
 $("#loading").hide();
 
@@ -179,7 +186,7 @@ for (var i = 0; i < data[0].quotes.length; i++) {
 }
 //style current displayed
 $("div.quote-link").eq(1).css({ "border-radius": "50px", "background-color": "white", "transform": "rotate(-3deg)"});
-$("div.quote-link p").eq(1).css("color","black");
+$("div.quote-link p").eq(1).css("color","#222222");
 quoteProgression = 1;
 transformNav(quoteProgression, data)
 
@@ -203,7 +210,7 @@ function transformNav(i){
   $("div.quote-link p").css("color","#555555");
   //transform
   $("div.quote-link").eq(i).css({ "border-radius": "50px", "background-color": "white", "transform": "rotate(-3deg)"});
-  $("div.quote-link p").eq(i).css("color","black");
+  $("div.quote-link p").eq(i).css("color","#222222");
   console.log(jsonData)
   $("#draggable1").eq(0).html("<p>"+jsonData[0].quotes[i].age+ "</p>");
 $("#draggable2").eq(0).html("<p>"+jsonData[0].quotes[i].gender+ "</p>");

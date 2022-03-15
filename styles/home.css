@@ -1,0 +1,79 @@
+/* HOMEPAGE */
+#homepage-gif{
+  position: absolute;
+}
+
+.home-page{
+  overflow-y: hidden;
+}
+
+
+.category-wrapper h1:hover{
+  font-size: 8rem;
+  color: #2E2AEF;
+}
+.category-wrapper h1{
+  transition: all 0.5s ease;
+}
+
+.category-wrapper {
+  position: absolute;
+  padding-left: 5vw;
+  padding-bottom: 5vh;
+  bottom: 0;
+  left: 0;
+}
+.topnav {
+  overflow: hidden;
+  display: flex;
+  top: 0;
+  align-self: flex-start;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+#about-link {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -3vw;
+  top: 50vh;
+
+}
+
+.description-subheader {
+  font-family: 'Sentient-MediumItalic';
+  font-size: 1.2rem;
+}
+
+.draggable6 div {
+  width: 60%;
+  }
+  .draggable6 p {
+    background-color: #f5f5f5;
+    color: #2E2AEF;
+    transition: all 0.56s ease;
+    font-family: 'RadioGrotesk';
+    font-size: 1.2rem;
+    line-height: 100%
+    }
+  
+  .draggable6:hover p {
+    background-color: #2E2AEF;
+    color: #f5f5f5;
+    }
+  
+  
+  .draggable6:hover { /*resources draggable*/
+    background-image: url('/imgs/BIGARROW_blue.svg');
+    background-size: contain; 
+    transform: rotate(0deg);
+    
+  }
+  
+  .draggable6:hover div{ /*resources draggable*/
+  
+    transform: rotate(0deg);
+    
+  }
+

@@ -103,7 +103,7 @@
         "quote": "[A critical issue in design is the] Lack of diversity - I was a Creative Director in San Francisco for over 10 years. I did not interview a single African-American candidate for any graphic design, web design, or copy writing position.",
         "summary": "I did not interview a single African-American candidate",
         "Age": 51,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Male",
         "role": "Creative director"
        
@@ -112,7 +112,7 @@
         "quote": "Design is an evolving field. We now work more and get paid less for the work. I find it difficult to stay current with everything changing so rapidly.",
         "summary": "We now work more and get paid less…",
         "age": 54,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Male",
         "role": "Creative director"
       },
@@ -120,7 +120,7 @@
         "quote": "The most critical issues facing the design industry are twofold. First the disproportionate compensation for work compensation and the under appreciation for the use and application for design and cultivating designers in America resulting in reliance on creative talent from other countries.",
         "summary": "Disproportionate compensation and under appreciation",
         "age":57,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Female",
         "role": "Creative director"
       },
@@ -141,10 +141,10 @@
         "role": "Professor"
       },
       {
-        "quote": "As a Black woman, I feel the voices in Black Creative/Art Directors are limited/non existent. Unless we are talking about social issues, we're not invited to the conversation. While I care about social issues, I don't want to talk about that topic to be the only reason I talk design. I don't need to have, 'Black Lives Matter,' attached to my topic just to be heard. ",
-        "summary": "As a Black woman, I feel the voices in Black Creative/Art Directors are limited/non existent.",
+        "quote": "As a #222222 woman, I feel the voices in #222222 Creative/Art Directors are limited/non existent. Unless we are talking about social issues, we're not invited to the conversation. While I care about social issues, I don't want to talk about that topic to be the only reason I talk design. I don't need to have, '#222222 Lives Matter,' attached to my topic just to be heard. ",
+        "summary": "As a #222222 woman, I feel the voices in #222222 Creative/Art Directors are limited/non existent.",
         "age": 32,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Female",
         "role": "Art director"
       }
@@ -174,7 +174,7 @@
         "quote": "Support guidance and resources for continued design education as the field evolves with the culturescape. Designers are facing an identity crisis along the way and we just try to figure it out but less specialization and more design strategy and thinking to solve problems sees the trend. However, specialization seems important in the area of consumerism.",
         "summary": "Designers are facing an identity crisis along the way…",
         "age": 36,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Female",
         "role": "Senior designer"
       },
@@ -198,7 +198,7 @@
         "quote": "The lack of visibility of representation in art and design education in combination with the expensive costs of more or less outdated education.",
         "summary": "Lack of visibility of representation in art and design…",
         "age": 22,
-        "race": "Black / African American",
+        "race": "#222222 / African American",
         "gender": "Female",
         "role": "Intern"
       },
@@ -297,7 +297,7 @@
       "quote": "There are a lot of avenues for design education but many of them are too expensive and inaccessible. Many programs also don't offer adequate job placement services for students who drop thousands of dollars on education just to be left searching for months on end.",
       "summary": "Design education is too expensive and inaccessible.",
       "age": 27,
-      "race": "Black / African American",
+      "race": "#222222 / African American",
       "gender": "Female",
       "role": "Mid-level designer"
     }  
