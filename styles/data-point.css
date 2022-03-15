@@ -1,0 +1,103 @@
+
+.data-page .draggable {
+  background-color: white;
+
+}
+.data-page #navbar{
+
+width: fit-content;
+}
+
+.data-page h2 {
+  margin-bottom: 1rem;
+}
+
+.data-page .draggable h6{
+  color: white;
+  background-color: #2E2AEF;
+  padding: 5px;
+  
+  
+}
+svg:hover  {
+  fill: #2E2AEF;
+}
+
+.data-point-wrapper{
+  width: 8vw;
+  height: 8vw;
+  position: absolute;
+  justify-content: center;
+  transform: translate(10%,10%);
+  border-radius: 50%;
+  
+}
+
+
+/*data-point page */
+
+.data-page h1 {
+    font-size: 5rem;
+    line-height: 1;
+}
+.data-page h2 {
+    font-size: 1.4rem;
+    font-family: 'Sentient-MediumItalic';
+}
+.data-page p {
+    font-size: 1rem;
+}
+
+.data-page .col-4 {
+position: absolute;
+top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.data-page .col-3 {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32vw;
+    border-left: 1px solid #222222;
+}
+.data-page .col-3 img{
+  height: 100vh;
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+
+}
+
+#draggable5 { /*resources draggable*/
+  background-image: url('/imgs/BIGARROW_blue.svg');
+  background-size: cover; 
+  transition: all 0.5s ease;
+  transform-origin: 10vw center;
+  background-position: center center; 
+  
+}
+#draggable5:hover { /*resources draggable*/
+
+background-image: url('/imgs/resource-images/DesignLeadership.png');
+background-size: 140% 140%; 
+background-position: center center; 
+width: 20vw;
+height: 20vw
+
+}
+
+#draggable5:hover h6 {
+  display: none;
+}
+
+.number {
+  font-family: kepler-std-display;
+  font-weight: 700;
+  font-style: italic;
+  color: blue
+}
+
